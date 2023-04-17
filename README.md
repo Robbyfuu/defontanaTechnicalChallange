@@ -16,10 +16,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Funcionamiento de la aplicación
 La aplicación consta con 4 componentes:
-Header: Contiene un titulo y el nombre del pokemon seleccionado que lo obtenemos desde el Store del Redux.
-pokemonTable: Que contiene una lista con todos los pokemons, en esta tabla se puede seleccionar un pokemon y esta selección se guardara en el Redux Store.
-pokemonDetail: Contiene la información del pokemon seleccionado, esta información se obtiene desde el Store del Redux.
-pokemonByLetter: Contiene una lista con la letra y el numero de pokemons que empiezan con esa letra.
+ - `Header`: Contiene un titulo y el nombre del pokemon seleccionado que lo obtenemos desde el Store del Redux.
+- `pokemonTable`: Que contiene una lista con todos los pokemons, en esta tabla se puede seleccionar un pokemon y esta selección se guardara en el Redux Store.
+- `pokemonDetail`: Contiene la información del pokemon seleccionado, esta información se obtiene desde el Store del Redux.
+- `pokemonByLetter`: Contiene una lista con la letra y el numero de pokemons que empiezan con esa letra.
 
 ## Redux
 La aplicación se encuentra conectada con el Store de Redux, para el manejo de los estados de los componentes, en esta aplicación se manejan 1 estado, solo para el pokemon seleccionado.
