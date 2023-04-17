@@ -24,3 +24,6 @@ La aplicación consta con 4 componentes:
 ## Redux
 La aplicación se encuentra conectada con el Store de Redux, para el manejo de los estados de los componentes, en esta aplicación se manejan 1 estado, solo para el pokemon seleccionado.
 
+## Angular Material
+Se ultilizo Angular Material para el diseño de la aplicación, ya que me parece una libreria muy completa y facil de utilizar.
+
