@@ -12,7 +12,7 @@ export class PokemonService {
   ) { }
 
   getPokemons(){
-    return this.http.get<PokemonListResponse>('https://pokeapi.co/api/v2/pokemon?limit=151&offset=0');
+    return this.http.get<PokemonListResponse>('https://pokeapi.co/api/v2/pokemon?limit=1200&offset=0');
   }
   getPokemon(name:string){
     return this.http.get<Pokemon>(`https://pokeapi.co/api/v2/pokemon/${name}`);
