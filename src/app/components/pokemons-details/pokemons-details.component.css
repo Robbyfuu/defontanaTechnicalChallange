@@ -1,0 +1,18 @@
+.header-image {
+  background-size: cover;
+}
+
+.mat-card-header{
+  background-color: #fcfcfc;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.mat-card-title{
+  text-transform: uppercase;
+  color: black;
+}
+
+.mat-card-subtitle{
+  color: black;
+}

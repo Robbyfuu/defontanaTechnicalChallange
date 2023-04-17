@@ -1,0 +1,20 @@
+<section class="example-container mat-elevation-z8" tabindex="0">
+  <table mat-table [dataSource]="dataSource">
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="letter">
+      <th mat-header-cell *matHeaderCellDef> Letra </th>
+      <td mat-cell *matCellDef="let element"> {{element.letter}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="numberOfTimes">
+      <th mat-header-cell *matHeaderCellDef> Numero de Veces </th>
+      <td mat-cell *matCellDef="let element"> {{element.numberOfTimes}} </td>
+    </ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</section>
